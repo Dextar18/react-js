@@ -1,0 +1,106 @@
+body {
+    background-image: url('D:\node\crudproject\public\wallpaperflare.com_wallpaper (1).jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Keeps the background fixed when scrolling */
+    margin: 0;
+    padding: 0;
+}
+/* Styling for the CRUD component container */
+div {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: transparent;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+/* Input styling */
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="radio"] {
+    margin: 0 5px;
+}
+
+/* Dropdown styling */
+select {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    margin: 10px 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Action buttons in table */
+table button {
+    background-color: #2196F3;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+table button:hover {
+    background-color: #0b7dda;
+}
+
+table button:nth-child(2) {
+    background-color: #f44336;
+}
+
+table button:nth-child(2):hover {
+    background-color: #d32f2f;
+}
