@@ -1,0 +1,168 @@
+.div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f4f8; /* Light background color */
+  color: #333; /* Dark text color */
+  font-family: 'Arial', sans-serif;
+}
+
+h1 {
+  color: #4a90e2; /* Blue color for the heading */
+  margin-bottom: 20px;
+}
+
+input {
+  width: 375px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input:focus {
+  border-color: #4a90e2; /* Change border color on focus */
+  outline: none;
+}
+
+button {
+  width: 400px;
+  padding: 10px;
+  background-color: #4a90e2; /* Button color */
+  color: white; /* Button text color */
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #357ab8; /* Darker blue on hover */
+}
+
+span {
+  margin-top: 15px;
+}
+
+span a {
+  color: #4a90e2; /* Link color */
+  text-decoration: none;
+}
+
+span a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+
+
+
+
+
+/* SignUp.css */
+
+.div1 {
+  background-color: #f0f4f8; /* Light background color */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Padding around the content */
+  max-width: 400px; /* Maximum width of the form */
+  margin: 50px auto; /* Center the form */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h1 {
+  color: #333; /* Darker text color for the heading */
+  text-align: center; /* Center the heading */
+}
+
+N1 {
+  width: 90%; /* Full width inputs */
+  padding: 10px; /* Padding inside the inputs */
+  margin: 10px 0; /* Margin between inputs */
+  margin-left: 25px;
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 4px; /* Rounded corners for inputs */
+  font-size: 16px; /* Font size for inputs */
+}
+
+input:focus {
+  border-color: #007bff; /* Change border color on focus */
+  outline: none; /* Remove default outline */
+}
+
+B1 {
+  background-color: #007bff; /* Primary button color */
+  color: white; /* Text color for button */
+  padding: 10px; /* Padding inside the button */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Rounded corners for button */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Font size for button */
+  width: 100%; /* Full width button */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+span {
+  display: block; /* Block display for the link */
+  text-align: center; /* Center the link */
+  margin-top: 10px; /* Margin above the link */
+}
+
+a {
+  color: #007bff; /* Link color */
+  text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+
+
+/* Dashboard.css */
+
+.main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+strong {
+  color: #555;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height of the viewport */
+}
